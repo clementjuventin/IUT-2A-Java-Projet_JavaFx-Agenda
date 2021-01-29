@@ -1,0 +1,21 @@
+
+.button:hover{
+    -fx-text-fill: grey;
+}
+
+#addBtn{
+    -fx-text-fill: white;
+    -fx-background-color: #016d77;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-min-width: 155.0;
+    -fx-pref-height: 70.0;
+    -fx-font-family: "System Bold";
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+}
+
+#addBtn:hover{
+    -fx-text-fill: grey;
+
+}

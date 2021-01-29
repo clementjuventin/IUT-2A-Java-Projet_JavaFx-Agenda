@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Button?>
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.Calendar">
+    <top>
+        <HBox>
+            <ComboBox fx:id="monthChoice">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+
+                    </FXCollections>
+                </items>
+            </ComboBox>
+            <ComboBox fx:id="yearsComboBox">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+
+                    </FXCollections>
+                </items>
+            </ComboBox>
+        </HBox>
+    </top>
+    <left>
+        <GridPane fx:id="dayGrid">
+
+        </GridPane>
+    </left>
+    <bottom>
+        <VBox>
+            <TextField minHeight="40" promptText="Titre de la tâche" fx:id="title">
+
+            </TextField>
+            <TextArea minHeight="200" promptText="Description de la tâche" fx:id="description">
+
+            </TextArea>
+            <Button fx:id="submit" text="Valider">
+
+            </Button>
+        </VBox>
+    </bottom>
+
+</BorderPane>
+
