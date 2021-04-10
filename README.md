@@ -1,0 +1,3 @@
+# IUT-2A-Java-Projet_JavaFx-Agenda
+
+ContexteNotre application est un logiciel type Todo List, il permet de rédiger des tâches à faire en fonction d’un calendrier pour les consulter ultérieurement et éventuellement les noter comme validés. Cette application a pour but de simplifier la gestion du temps pour un utilisateur en lui permettant d’organiser son emploi du temps. Le logiciel dispose aussi d’un affichage sur les différentes heures en fonction des fuseaux horaires de quelques villes.Réalisé par Axel Crozet & Clément Juventin –2021, Deuxième année d’iut informatique aux Cézeaux, Clermont-Ferrand.
